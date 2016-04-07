@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.vircleView itemsArr:@[@"1",@"2",@"3",@"100"] colorsArr:@[[UIColor redColor],[UIColor grayColor],[UIColor cyanColor],[UIColor greenColor]]];
+    //[self.vircleView  stroke];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
